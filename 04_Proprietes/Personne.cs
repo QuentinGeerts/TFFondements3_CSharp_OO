@@ -55,12 +55,12 @@
         }
 
         // Auto-prop
+        // prop → →
         public string Name { get; set; }
 
-        // prop → →
+        // propfull → → 
         private bool _HasPet;
 
-        // propfull → → 
         public bool HasPet
         {
             get { return _HasPet; }
